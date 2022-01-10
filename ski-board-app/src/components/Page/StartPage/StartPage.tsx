@@ -12,5 +12,5 @@ export function StartPage(): JSX.Element {
         снегборд
       </Link>
     </div>
-  );
+  );  
 }
