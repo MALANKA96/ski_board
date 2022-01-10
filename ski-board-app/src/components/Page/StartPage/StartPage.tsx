@@ -1,10 +1,16 @@
+import { Link } from "react-router-dom";
 import styles from "./styles/StartPage.module.css";
 
 export function StartPage(): JSX.Element {
   return (
     <div className={styles.container}>
-      <button className={styles.btn_ski}>лыжи</button>
-      <button className={styles.btn_board}>снегборд</button>
+      <Link className={styles.btn_ski} to="/ski">
+        лыжи
+      </Link>
+
+      <Link className={styles.btn_board} to="/board">
+        снегборд
+      </Link>
     </div>
   );
 }

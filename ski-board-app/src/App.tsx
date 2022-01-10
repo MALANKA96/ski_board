@@ -1,17 +1,11 @@
-import React from "react";
-import logo from "./logo.svg";
-import logo1 from "./logoSki.png";
+import { BrowserRouter } from "react-router-dom";
 import "./App.css";
-import TestAntD from "./components/testAntD";
-import { Header } from "./components/Header";
-import { StartPage } from "./components/Page/StartPage/StartPage";
+import  AppRoute  from "./components/Route/AppRoute";
 
-function App() {
+export default function App():JSX.Element {
   return (
-    <>
-      <StartPage />
-    </>
+    <BrowserRouter>
+      <AppRoute />
+    </BrowserRouter>
   );
 }
-
-export default App;
