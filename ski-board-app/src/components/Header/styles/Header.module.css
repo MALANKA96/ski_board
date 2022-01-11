@@ -1,0 +1,9 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: blueviolet;
+  width: 100vw;
+  height: 50px;
+}
+/*# sourceMappingURL=Header.module.css.map */
